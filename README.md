@@ -64,7 +64,7 @@
 | 图 | 说的事 |
 |---|---|
 | ![秒伤分层](figures/01-dps-by-class.png) | 秒伤把 69 把枪分成三层，狙击是例外：中位只有 56，但一枪结束交火 |
-| ![枪声七档](figures/02-sound-radius-bands.png) | 68 把枪只用了 7 个枪声档位，每档基本就是一个枪族 |
+| ![枪声七档](figures/02-sound-radius-bands.png) | 68 把枪的枪声只用了 7 个离散档位，每档基本就是一个枪族（图按有枪声数据的 66 把绘制） |
 | ![时长阶跃](figures/03-duration-vs-exfil-rate.png) | 第八分钟是一道门，之前进得去出不来 |
 | ![地图经济](figures/04-map-economy-scatter.png) | 四张图只有一张是正期望，而玩家多数时间在打那张负期望的 |
 | ![参数敏感度](figures/05-parameter-sensitivity.png) | 十四个参数的真实效力，最后两行几乎是空的 |
