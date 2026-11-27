@@ -1,0 +1,91 @@
+{
+  "note": "十四个参数变体各跑一遍 2,898 个交火场景（69 把枪 x 7 个护甲等级 x 6 个距离），统计\"击杀所需发数\"发生变化的场景占比。离散的 TTK 让玩家只感知到\"少打/多打一发\"。",
+  "scenarios": 2898,
+  "baseline_median_shots": 4.0,
+  "rows": [
+    {
+      "variant": "基础肉体伤害 x0.85",
+      "cross_one_shot": 0.628,
+      "median_after": 5.0,
+      "mean_delta": 0.655
+    },
+    {
+      "variant": "基础肉体伤害 x0.90",
+      "cross_one_shot": 0.4379,
+      "median_after": 5.0,
+      "mean_delta": 0.438
+    },
+    {
+      "variant": "基础肉体伤害 x1.15",
+      "cross_one_shot": 0.3696,
+      "median_after": 4.0,
+      "mean_delta": -0.37
+    },
+    {
+      "variant": "耐久吸收率统一 0.6",
+      "cross_one_shot": 0.2833,
+      "median_after": 5.0,
+      "mean_delta": 0.644
+    },
+    {
+      "variant": "基础肉体伤害 x1.10",
+      "cross_one_shot": 0.2315,
+      "median_after": 4.0,
+      "mean_delta": -0.232
+    },
+    {
+      "variant": "基础护甲伤害 x0.85",
+      "cross_one_shot": 0.2153,
+      "median_after": 5.0,
+      "mean_delta": 0.259
+    },
+    {
+      "variant": "衰减边界 x1.2",
+      "cross_one_shot": 0.1705,
+      "median_after": 4.0,
+      "mean_delta": -0.222
+    },
+    {
+      "variant": "基础护甲伤害 x1.15",
+      "cross_one_shot": 0.1712,
+      "median_after": 4.0,
+      "mean_delta": -0.189
+    },
+    {
+      "variant": "穿透系数表改陡",
+      "cross_one_shot": 0.1432,
+      "median_after": 5.0,
+      "mean_delta": 0.154
+    },
+    {
+      "variant": "穿透系数表改平",
+      "cross_one_shot": 0.1342,
+      "median_after": 4.0,
+      "mean_delta": -0.122
+    },
+    {
+      "variant": "耐久吸收率统一 1.0",
+      "cross_one_shot": 0.1153,
+      "median_after": 4.0,
+      "mean_delta": -0.154
+    },
+    {
+      "variant": "衰减边界 x0.8",
+      "cross_one_shot": 0.0711,
+      "median_after": 5.0,
+      "mean_delta": 0.09
+    },
+    {
+      "variant": "三级甲耐久 85 -> 110",
+      "cross_one_shot": 0.0121,
+      "median_after": 4.0,
+      "mean_delta": 0.012
+    },
+    {
+      "variant": "三级甲耐久 85 -> 60",
+      "cross_one_shot": 0.0079,
+      "median_after": 4.0,
+      "mean_delta": -0.008
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "note": "一名玩家的搜打撤对局逐局结算，用于观察经济期望与时长结构。只保留聚合统计。",
+  "battles": 247,
+  "exfil_rate": 0.275,
+  "breakeven_exfil_rate": 0.32,
+  "cumulative_net": -7820000,
+  "duration_minutes": {
+    "median": 6.4,
+    "p10": 1.5,
+    "p25": 3.0,
+    "p75": 10.9,
+    "p90": 19.6,
+    "max": 29.9,
+    "death_median": 4.3,
+    "exfil_median": 11.5
+  },
+  "by_duration_bucket": [
+    {
+      "bucket": "0-3 min",
+      "n": 63,
+      "exfil_rate": 0.0,
+      "net_median": -433000,
+      "loot_per_min": 0.176,
+      "kills_avg": 0.95
+    },
+    {
+      "bucket": "3-5 min",
+      "n": 34,
+      "exfil_rate": 0.0,
+      "net_median": -240000,
+      "loot_per_min": 0.236,
+      "kills_avg": 2.32
+    },
+    {
+      "bucket": "5-8 min",
+      "n": 39,
+      "exfil_rate": 0.026,
+      "net_median": -294000,
+      "loot_per_min": 0.149,
+      "kills_avg": 3.0
+    },
+    {
+      "bucket": "8-12 min",
+      "n": 59,
+      "exfil_rate": 0.644,
+      "net_median": 364000,
+      "loot_per_min": 0.114,
+      "kills_avg": 4.24
+    },
+    {
+      "bucket": "12-18 min",
+      "n": 21,
+      "exfil_rate": 0.286,
+      "net_median": 185000,
+      "loot_per_min": 0.074,
+      "kills_avg": 4.81
+    },
+    {
+      "bucket": "18+ min",
+      "n": 31,
+      "exfil_rate": 0.742,
+      "net_median": 411000,
+      "loot_per_min": 0.05,
+      "kills_avg": 5.94
+    }
+  ],
+  "by_map": [
+    {
+      "map": "零号大坝·机密",
+      "n": 42,
+      "exfil_rate": 0.381,
+      "net_per_hour_wan": 117.9,
+      "median_min": 6.7,
+      "payback_ratio": 1.16
+    },
+    {
+      "map": "航天基地·绝密",
+      "n": 113,
+      "exfil_rate": 0.319,
+      "net_per_hour_wan": 39.5,
+      "median_min": 9.0,
+      "payback_ratio": 0.74
+    },
+    {
+      "map": "AZ3·机密",
+      "n": 42,
+      "exfil_rate": 0.286,
+      "net_per_hour_wan": -61.0,
+      "median_min": 6.5,
+      "payback_ratio": 0.36
+    },
+    {
+      "map": "巴克什·机密",
+      "n": 39,
+      "exfil_rate": 0.103,
+      "net_per_hour_wan": -388.1,
+      "median_min": 3.2,
+      "payback_ratio": 0.2
+    },
+    {
+      "map": "航天基地·机密",
+      "n": 9,
+      "exfil_rate": 0.0,
+      "net_per_hour_wan": -140.1,
+      "median_min": 6.0,
+      "payback_ratio": 0.0
+    }
+  ]
+}

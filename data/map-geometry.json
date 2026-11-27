@@ -1,0 +1,119 @@
+{
+  "note": "尺寸与点位数量取自官方地图工具的公开点位表；距离为出生点到最近撤离点的直线距离，按地图坐标系折算为米。",
+  "maps": [
+    {
+      "name": "零号大坝",
+      "source_file": "map_article.js",
+      "size_m": [
+        811,
+        810
+      ],
+      "diagonal_m": 1146.2,
+      "spawn_points": 14,
+      "exfil_points": 8,
+      "difficulty_tiers": "常规 / 机密",
+      "dist_to_nearest_exfil_m": {
+        "min": 9.1,
+        "median": 106.1,
+        "max": 188.3
+      },
+      "loot_nodes": 69,
+      "loot_node_kinds": 20
+    },
+    {
+      "name": "长弓溪谷",
+      "source_file": "map_cgxg.js",
+      "size_m": [
+        1128,
+        1128
+      ],
+      "diagonal_m": 1595.2,
+      "spawn_points": 22,
+      "exfil_points": 9,
+      "difficulty_tiers": "常规 / 机密",
+      "dist_to_nearest_exfil_m": {
+        "min": 30.2,
+        "median": 172.0,
+        "max": 300.4
+      },
+      "loot_nodes": 36,
+      "loot_node_kinds": 17
+    },
+    {
+      "name": "航天基地",
+      "source_file": "map_htjd.js",
+      "size_m": [
+        654,
+        654
+      ],
+      "diagonal_m": 924.9,
+      "spawn_points": 8,
+      "exfil_points": 3,
+      "difficulty_tiers": "机密 / 绝密",
+      "dist_to_nearest_exfil_m": {
+        "min": 36.8,
+        "median": 347.9,
+        "max": null
+      },
+      "loot_nodes": null,
+      "loot_node_kinds": null
+    },
+    {
+      "name": "巴克什",
+      "source_file": "map_bks.js",
+      "size_m": [
+        600,
+        600
+      ],
+      "diagonal_m": 848.5,
+      "spawn_points": 11,
+      "exfil_points": 6,
+      "difficulty_tiers": "常规 / 机密 / 绝密",
+      "dist_to_nearest_exfil_m": {
+        "min": 50.6,
+        "median": 122.6,
+        "max": 193.7
+      },
+      "loot_nodes": 44,
+      "loot_node_kinds": 19
+    },
+    {
+      "name": "潮汐监狱",
+      "source_file": "map_cxjy.js",
+      "size_m": [
+        366,
+        366
+      ],
+      "diagonal_m": 517.6,
+      "spawn_points": 14,
+      "exfil_points": 5,
+      "difficulty_tiers": "未标注",
+      "dist_to_nearest_exfil_m": {
+        "min": 17.9,
+        "median": 103.2,
+        "max": 164.3
+      },
+      "loot_nodes": 372,
+      "loot_node_kinds": 27
+    },
+    {
+      "name": "AZ3",
+      "source_file": "map_az3.js",
+      "size_m": [
+        810,
+        808
+      ],
+      "diagonal_m": 1144.1,
+      "spawn_points": 14,
+      "exfil_points": 16,
+      "difficulty_tiers": "常规 / 机密",
+      "dist_to_nearest_exfil_m": {
+        "min": 31.7,
+        "median": 94.1,
+        "max": 203.3
+      },
+      "loot_nodes": 91,
+      "loot_node_kinds": 60
+    }
+  ]
+}
